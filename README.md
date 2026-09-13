@@ -13,8 +13,7 @@ In this initial task, I provisioned the foundational Azure resources required fo
 * **Azure Data Factory:** `CarDealershipADF26` (Used for data integration and automated pipelines).
 * **Blob Container:** Created a container named `adftutorial` to hold the data files.
 
-![Task 1 - Infrastructure Deployment](224110%2007-09-2026%20لقطة%20الشاشة.png)
----
+![Task 1 - Infrastructure Deployment](task1.png)---
 
 ## Task 2: Data Ingestion (Azure Data Factory)
 The goal of this task was to simulate ingesting raw car data into our cloud storage and moving it using an automated pipeline.
@@ -29,7 +28,5 @@ The goal of this task was to simulate ingesting raw car data into our cloud stor
 4. **Execution:** Successfully ran the pipeline, which automatically created the `output` folder and copied `emp.txt` into it.
 
 
-![Task 2 - Pipeline Success]()
+![Task 2 - Pipeline Success](Task2.png)
 
-
-![Task 2 - Output Data]()
