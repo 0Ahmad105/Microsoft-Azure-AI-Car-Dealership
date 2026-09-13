@@ -1,22 +1,35 @@
-# Microsoft-Azure-AI-Car-Dealership
-A digital transformation project for a car dealership using Azure AI services.
+# Car Dealership Cloud Data Project 
 
-## About the Project
-This project is part of a Microsoft Virtual Experience. It simulates the role of an **AI Software Developer** working on a digital transformation project for a client in the car dealership industry. The main objective is to use AI models to analyze data, design, and implement innovative solutions using **Microsoft Azure** tools.
-
-##  Technologies Used
-* **Azure Storage Account:** For storing raw data.
-* **Azure Data Factory:** For data integration, organizing, and unifying data formats.
-* **Azure Custom Vision:** For building computer vision models.
-* **Azure Machine Learning:** For developing and deploying AI models to serve the platform.
-
-##  Project Phases & Tasks
-This repository documents my journey in completing the following four main tasks:
-
-- [ ] **Task 1: Workspace Setup:** Creating an Azure workspace, including an Azure Storage Account and Azure Data Factory.
-- [ ] **Task 2: Data Analysis:** Analyzing data to build solutions that support the management team's decision-making process.
-- [ ] **Task 3: Custom Vision Model:** Building an innovative AI model using Azure Custom Vision.
-- [ ] **Task 4: Platform Services Development:** Developing platform services by building an AI model using Azure Machine Learning.
+This repository documents my progress in building a cloud data infrastructure for a car dealership using Microsoft Azure.
 
 ---
-*This repository was created to document the hands-on practice and application of Microsoft Azure Cloud services.*
+
+## Task 1: Environment Setup (Cloud Infrastructure)
+In this initial task, I provisioned the foundational Azure resources required for the project. To comply with location policies, all resources were deployed in the **Italy North** region.
+
+**Resources Created:**
+* **Resource Group:** `CarDealership-RG` (Logical container for project resources).
+* **Storage Account:** `cardealershipdata26` (Used for storing raw and processed data).
+* **Azure Data Factory:** `CarDealershipADF26` (Used for data integration and automated pipelines).
+* **Blob Container:** Created a container named `adftutorial` to hold the data files.
+
+![Task 1 - Infrastructure Deployment](224110%2007-09-2026%20لقطة%20الشاشة.png)
+---
+
+## Task 2: Data Ingestion (Azure Data Factory)
+The goal of this task was to simulate ingesting raw car data into our cloud storage and moving it using an automated pipeline.
+
+**Steps Completed:**
+1. **Data Preparation:** Created a local dataset `data.txt` containing car models and prices.
+2. **Manual Upload:** Uploaded the dataset into the `input` folder within the `adftutorial` container in Azure Blob Storage.
+3. **Pipeline Automation:** 
+   * Opened **Azure Data Factory Studio**.
+   * Used the **Copy Data tool** (Built-in copy task) to create an automated pipeline (`ADFQuickStart`).
+   * Configured the Source (`input` folder) and Destination (`output` folder).
+4. **Execution:** Successfully ran the pipeline, which automatically created the `output` folder and copied `emp.txt` into it.
+
+
+![Task 2 - Pipeline Success]()
+
+
+![Task 2 - Output Data]()
