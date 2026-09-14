@@ -40,5 +40,5 @@ In this task, I successfully built and trained an image classification model usi
 4. Trained the AI model and evaluated its performance metrics (Precision and Recall).
 
 *(Task 3 - Model Training Performance)*
-![Task 3 - Model Training](Task3.png)
+![Task 3 - Model Training](task3.png)
 
