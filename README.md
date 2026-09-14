@@ -30,3 +30,15 @@ The goal of this task was to simulate ingesting raw car data into our cloud stor
 
 ![Task 2 - Pipeline Success](Task2.png)
 
+## Task 3: Custom Vision Model (AI)
+In this task, I successfully built and trained an image classification model using **Azure Custom Vision** to categorize cars based on visual features (e.g., colors).
+
+**Steps Completed:**
+1. Provisioned a Custom Vision training resource in a policy-compliant region.
+2. Created a new Multiclass Classification project.
+3. Uploaded car images and categorized them using manual tags (`red`, `blue`, `black`).
+4. Trained the AI model and evaluated its performance metrics (Precision and Recall).
+
+*(Task 3 - Model Training Performance)*
+![Task 3 - Model Training](Task3.png)
+
