@@ -42,3 +42,21 @@ In this task, I successfully built and trained an image classification model usi
 *(Task 3 - Model Training Performance)*
 ![Task 3 - Model Training](task3.png)
 
+### Task 4: Automobile Price Prediction (Machine Learning)
+
+In this task, I successfully built and trained a regression model using **Azure Machine Learning Designer** to predict automobile prices based on their technical specifications and features.
+
+**Steps Completed:**
+
+1. Provisioned an Azure Machine Learning workspace and a compute cluster in a policy-compliant region.
+2. Created a new Machine Learning pipeline using the visual drag-and-drop designer.
+3. Imported the raw automobile dataset, excluded irrelevant columns, and cleaned missing data by removing incomplete rows.
+4. Split the dataset (70/30) and trained a **Linear Regression** model targeting the `price` column.
+5. Scored the test data and evaluated the model's performance metrics ($R^2$, MAE, and RMSE).
+
+*(Task 4 - Pipeline Completion and Evaluation Metrics)*
+
+<!-- أضف مسار صورك هنا بدلاً من الروابط المؤقتة -->
+![Pipeline Completion](task4.1.png)
+![Evaluation Results](task4.png)
+
